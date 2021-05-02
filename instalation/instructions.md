@@ -1,6 +1,7 @@
 ## Install Nix and Setup cache 
 
 - install nix with: `curl -L https://nixos.org/nix/install | sh`
+- run this command to create nix folder: `sudo mkdir /etc/nix`
 - Once installed, edit `/etc/nix/nix.conf` file and add the following lines (always check the [original repo](https://github.com/input-output-hk/plutus#how-to-set-up-the-iohk-binary-caches****))
 
 ```bash
